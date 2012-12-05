@@ -1,11 +1,32 @@
-<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" width="640" height="480" frameRate="30" currentTimeline="1" xflVersion="2.2" creatorInfo="Adobe Flash Professional CS6" platform="Macintosh" versionInfo="Saved by Adobe Flash Macintosh 12.0 build 481" majorVersion="12" buildNumber="481" gridSnapTo="true" pixelSnap="true" vanishingPoint3DX="320" vanishingPoint3DY="240" previewMode="fast" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false">
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#000000" gridColor="#66FFFF" width="640" height="480" frameRate="30" currentTimeline="1" xflVersion="2.2" creatorInfo="Adobe Flash Professional CS6" platform="Macintosh" versionInfo="Saved by Adobe Flash Macintosh 12.0 build 481" majorVersion="12" buildNumber="481" gridSpacingX="16" gridSpacingY="16" gridSnapTo="true" gridVisible="true" pixelSnap="true" vanishingPoint3DX="320" vanishingPoint3DY="240" previewMode="fast" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false">
+     <symbols>
+          <Include href="player.xml" itemIcon="1" loadImmediate="false" itemID="50bece6b-00000342" lastModified="1354681963"/>
+          <Include href="wall.xml" itemIcon="1" loadImmediate="false" itemID="50bed7df-00000343" lastModified="1354684383"/>
+     </symbols>
      <timelines>
           <DOMTimeline name="Scene 1">
                <layers>
-                    <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+                    <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true" layerType="guide">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
-                                   <elements/>
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="player" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="64" ty="32"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="8" y="16"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="wall" selected="true" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix ty="16"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="16" y="8"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
@@ -14,6 +35,9 @@
      </timelines>
      <PrinterSettings platform="macintosh"/>
      <publishHistory>
+          <PublishItem publishSize="87181" publishTime="1354683461" publishDebug="true"/>
+          <PublishItem publishSize="87200" publishTime="1354683340" publishDebug="true"/>
+          <PublishItem publishSize="87094" publishTime="1354682942" publishDebug="true"/>
           <PublishItem publishSize="86863" publishTime="1354595019" publishDebug="true"/>
           <PublishItem publishSize="84922" publishTime="1354592226" publishDebug="true"/>
           <PublishItem publishSize="536" publishTime="1354591600"/>
