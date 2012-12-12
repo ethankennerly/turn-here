@@ -12,7 +12,7 @@
     <qt>0</qt>
     <rnwk>0</rnwk>
     <swc>0</swc>
-    <flashDefaultName>1</flashDefaultName>
+    <flashDefaultName>0</flashDefaultName>
     <projectorWinDefaultName>1</projectorWinDefaultName>
     <projectorMacDefaultName>1</projectorMacDefaultName>
     <htmlDefaultName>1</htmlDefaultName>
@@ -22,7 +22,7 @@
     <qtDefaultName>1</qtDefaultName>
     <rnwkDefaultName>1</rnwkDefaultName>
     <swcDefaultName>1</swcDefaultName>
-    <flashFileName>TurnHere.swf</flashFileName>
+    <flashFileName>../bin/turn_here.swf</flashFileName>
     <projectorWinFileName>TurnHere.exe</projectorWinFileName>
     <projectorMacFileName>TurnHere.app</projectorMacFileName>
     <htmlFileName>TurnHere.html</htmlFileName>

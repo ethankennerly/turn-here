@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="wall" itemID="50bed7df-00000343" symbolType="graphic" lastModified="1354684383">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="wall" itemID="50bed7df-00000343" symbolType="graphic" lastModified="1355293011">
   <timeline>
     <DOMTimeline name="wall">
       <layers>
@@ -13,7 +13,7 @@
                     </FillStyle>
                   </fills>
                   <edges>
-                    <Edge fillStyle1="1" edges="!320 0|320 320!320 320|0 320!0 320|0 0!0 0|320 0"/>
+                    <Edge fillStyle1="1" edges="!1920 0|1920 4800!1920 4800|0 4800!0 4800|0 0!0 0|1920 0"/>
                   </edges>
                 </DOMShape>
               </elements>
